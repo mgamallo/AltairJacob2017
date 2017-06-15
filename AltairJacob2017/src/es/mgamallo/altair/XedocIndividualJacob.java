@@ -29,6 +29,8 @@ public class XedocIndividualJacob {
 	public static final String SOLICITUDE = "Solicitude";
 	public static final String TEST_UREASA = "Test de ureasa";
 
+	public static String GALARIA = "RADG";	
+	
 	private boolean excepcionTipo = false;
 	
 	private final String SERVICIO_DESCONOCIDO = "Des";
@@ -413,7 +415,11 @@ public class XedocIndividualJacob {
 				
 				boolean alaFecha;
 				// System.out.println("Tipo de subida... " + tipoSubida);
-				if(tipoSubida.equals("f") || tipoSubida.equals("e") || tipoSubida.equals("q") ){
+				if(
+						tipoSubida.equals("f") || 
+						tipoSubida.equals("e") || 
+						tipoSubida.equals("q") ||
+						servicio.equals(GALARIA)){
 					alaFecha = true;
 				}
 				else{

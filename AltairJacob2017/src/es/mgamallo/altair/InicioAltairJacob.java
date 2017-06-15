@@ -30,7 +30,7 @@ public class InicioAltairJacob {
 	static Navegador xedoc1 = new Navegador("Xedoc 1",1);
 	static Navegador xedoc2 = new Navegador("Xedoc 2",2);;
 	static Navegador ianus= new Navegador("Ianus", 0);
-    
+    	
 /*
  	static ActiveXComponent bandejaXedoc1;
 	static ActiveXComponent bandejaXedoc2;
